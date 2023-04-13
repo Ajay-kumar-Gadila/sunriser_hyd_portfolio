@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:auto;
+            line-height: 0.2px;
+            background: 100vh;
+
+        }
+#nav{
+    width: 92%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px ;
+    margin-bottom: 25px;
+    font-size: 30px;
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #fff;
+  height: 4%;
+    
+}
+a{
+    text-decoration: none;
+}
+#nav a:hover{
+    background-color: orangered;
+    padding: 15px 6px 15px 6px;
+    color: black;
+}
+
+#box{
+   
+    color: rgb(148, 24, 24);
+    padding: 15px 6px 15px 6px;
+    border-radius: 12%;
+    box-shadow: 5px;
+    justify-content: space-between;
+    font-weight: 100;
+    font-family:cursive;
+    margin:5px;
+    border: 8px;
+    
+}
+
+h1{
+    font-size: 18vh;
+    text-align: center;
+    color: orangered;
+}
+.imagess{
+    line-height: 0.8;
+}
+.imagess img{
+    display: inline-block;
+    margin-right: 20px;
+    
+    justify-content: space-between;
+}
+details{
+    display: inline-block;
+    margin-right: 170px;
+    left: 25px;
+    
+}
+#moveright{
+    margin-right: 200px;
+}
+
+.playing{
+    line-height: 0.8;
+}
+.playing img{
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 5;
+    justify-content: space-between;
+}
+
+article{
+    display: flex;
+   align-items: center;
+   gap: 20px; 
+   line-height: 1.0;
+   position: relative;
+  
+}
+p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.finishing{
+    
+   line-height: 1.0;
+   display: flex;
+   justify-content: space-between;
+   background-color: orangered;
+   align-items: center;
+   gap: 20px; 
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+      background-color: #333;
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+      line-height: 1.0;
+    }
+
+    .container4 {
+  max-width: 1200px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer{
+    display: flex;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+
+aside{
+    font-size: 15px;
+
+    line-height: 1.0;
+    text-align: left;
+    position: fixed;
+    
+  top: 10px;
+  right: 10px;
+  z-index: 10000;
+}
+
+  
+
+</style>
+</head>
+<body>
+    
+    <div class="container">
+        <nav id="nav" align="right">
+            <img src="Sunrisers_Hyderabad.png" alt="Sunreiser" style="height: 80px; width:120px;" />
+        <a href="#" id="box">Home</a>
+        <a href="#" id="box">Tickets</a>
+        <a href="#" id="box">Merchandise</a>
+        <a href="#" id="box">Match</a>
+    </nav>
+    <main>
+    <aside>
+        <ul>
+          <a href="#">Profile</a><br>
+          <a href="#">info</a> <br>
+          <a href="#">Settings</a> <br>
+        </ul>
+      </aside>
+    </main>
+    
+    <br>
+    <br>
+    <br><br>
+    <div class="camp" style="position: relative; padding-top: 120px;">
+        <h1> <i> #The Risers Camp </i></h1>
+    </div>
+    <section>
+        <div class="champ">
+            <figure align="center"><img src="champions.jpg" alt="champions" style="width:60%" height="20%"></figure>
+            <figcaption align="center"> <b> Fig: champions in IPL   </b><time>May 21, 2016 at 11pm</time></figcaption>
+
+        </div>
+    </section>
+    <section>
+        <article>
+          <p><br> Sunrisers Hyderabad (stylised as SunRisers Hyderabad, abbr. SRH) are a franchise cricket team based in Hyderabad, Telangana, India, that plays in the Indian Premier League (IPL).[4] The franchise is owned by Kalanithi Maran of the SUN Group and was founded in 2012 after the Hyderabad-based Deccan Chargers <br> were terminated by the IPL.[5] The team is currently coached by Brian Lara and captained by Aiden Markram. Their primary home ground is the Rajiv Gandhi International Cricket Stadium, Hyderabad, which has capacity of 55,000</p>
+        </article>
+        
+    </section>
+    <div class="imagess">
+       
+        <h2>Couch</h2>
+        
+        <img src="lara.jpg" alt="brain lara" /> 
+        
+        
+        <img src="murali.jpg" alt="Murali"  >
+        <img src="dale.jpg" alt="" /><br>
+        <br>
+        <ul>
+            <details class="detail">
+                <summary>Click me</summary>
+                <b>Head Couch</b>
+            </details>
+            
+            <details>
+                <summary>Click me</summary>
+              <b>Mentor</b>
+            </details>
+            <details id="moveright">
+                <summary>Click me</summary>
+              <b>Bowling Couch</b>
+            </details>
+
+        </ul>
+        </div>
+
+        <div class="playing">
+            <h3>Playing 11</h3>
+            <img src="mayank.jpg" alt="brain lara" /> 
+            <img src="harry_brook.jpg" alt="Murali"  >
+            <img src="8.jpg" alt="imageimage" />
+            <img src="9.jpg" alt="brain lara" /> <br> 
+            <ul>
+                <details class="detail">
+                    <summary>Click me</summary>
+                    <b>Right hand batter</b>
+                </details>
+                
+                <details>
+                    <summary>Click me</summary>
+                  <b>Right hand batter</b>
+                </details>
+                <details id="moveright">
+                    <summary>Click me</summary>
+                  <b>Right hand batter</b>
+                </details>
+                <details id="moveright">
+                    <summary>Click me</summary>
+                  <b>Right hand batter</b>
+                </details>
+            </ul>
+            
+            <img src="klassen.jpg" alt="Murali"  >
+            <img src="washi.jpg" alt="imageimage" />
+            <img src="markande.jpg" alt="brain lara" /> 
+            <img src="marco.jpg" alt="Murali"  > 
+            <br>
+            <ul>
+                <details class="detail">
+                    <summary>Click me</summary>
+                    <b>Right hand batter</b>
+                </details>
+                
+                <details>
+                    <summary>Click me</summary>
+                  <b>All Rounder</b>
+                </details>
+                <details id="moveright">
+                    <summary>Click me</summary>
+                  <b>All Rounder</b>
+                </details>
+                <details id="moveright">
+                    <summary>Click me</summary>
+                  <b>All Rounder</b>
+                </details>
+            </ul>
+            <img src="19.jpg" alt="imageimage" />
+            <img src="Umran.jpg" alt="brain lara" /> 
+            <img src="nattu.jpg" alt="Murali"  > <br>
+            <ul>
+                <details class="detail">
+                    <summary>Click me</summary>
+                    <b>Bowler</b>
+                </details>
+                
+                <details>
+                    <summary>Click me</summary>
+                  <b>Bowler</b>
+                </details>
+                <details id="moveright">
+                    <summary>Click me</summary>
+                  <b>Bowler</b>
+                </details>
+        </div>
+        
+        <footer>
+            <div class="container4">
+              <p>&copy; 2023 SRH. All rights reserved.</p>
+              <nav class="footer">
+                <a href="#" style="color:red;">Privacy Policy</a>
+              </nav>
+            </div>
+          </footer>
+          
+              
+
+
+        </footer>
+
+
+    
+    </div>
+    </div>
+</body>
+</html>

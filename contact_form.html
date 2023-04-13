@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>website</title>
+    <style>
+        
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top:50%;
+  left: 50%;
+  margin-top: 5%;
+  margin-left: 23%;
+  border: 1px solid black;
+  width: 60%;
+  height: 60vh;
+}
+
+.image {
+  margin-right: 50px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color:black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color:coral;
+}
+
+    </style>
+</head>
+<body>
+    <h1 align="center" style="font-family:Verdana, Geneva, Tahoma, sans-serif; ">Fan Page</h1>
+    <div class="container">
+        <div class="image">
+          <img src="Sunrisers_Hyderabad.png" alt="Login Image">
+        </div>
+        <form class="login" method="POST" action="valid.php">
+          <h2>Login</h2>
+          
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+      
+</div>
+</body>
+</html>

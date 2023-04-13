@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <style>
+        form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color:black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1 align="ceneter" style="margin-left: 43%;">Hello Riser</h1> 
+    
+      
+    <form>
+        <h2>Registration Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required> <br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required> <br>
+        
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required> <br>
+        
+        <button type="submit">Submit</button>
+      </form>
+      
+</body>
+</html>
